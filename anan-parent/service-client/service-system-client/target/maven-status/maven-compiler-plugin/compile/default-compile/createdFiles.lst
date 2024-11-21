@@ -1,0 +1,8 @@
+com\gec\anan\system\client\SysRoleFeignClient.class
+com\gec\anan\system\client\SysDeptFeignClient.class
+com\gec\anan\system\client\SysMenuFeignClient.class
+com\gec\anan\system\client\SysPostFeignClient.class
+com\gec\anan\system\client\SysUserFeignClient.class
+com\gec\anan\system\client\SysOperLogFeignClient.class
+com\gec\anan\system\client\SecurityLoginFeignClient.class
+com\gec\anan\system\client\SysLoginLogFeignClient.class

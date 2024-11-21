@@ -1,0 +1,6 @@
+com\gec\anan\dispatch\controller\NewOrderController.class
+com\gec\anan\ServiceDispatchApplication.class
+com\gec\anan\dispatch\service\NewOrderService.class
+com\gec\anan\dispatch\mapper\XxlJobLogMapper.class
+com\gec\anan\dispatch\mapper\OrderJobMapper.class
+com\gec\anan\dispatch\service\impl\NewOrderServiceImpl.class

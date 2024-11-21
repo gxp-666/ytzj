@@ -1,0 +1,5 @@
+com\gec\anan\driver\client\CiFeignClient.class
+com\gec\anan\driver\client\DriverInfoFeignClient.class
+com\gec\anan\driver\client\DriverAccountFeignClient.class
+com\gec\anan\driver\client\CosFeignClient.class
+com\gec\anan\driver\client\OcrFeignClient.class

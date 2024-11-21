@@ -1,0 +1,26 @@
+
+package com.order
+import com.gec.anan.drools.model.Order
+
+//规则一：100元以下 不加分
+rule "order_rule_1"
+    when
+        $order:Order(amout < 100)
+    then
+//        $order.setAmout(150);
+//        update($order) //update方法用于更新Fact对象，会导致相关规则重新匹配
+        Order order = new Order();
+        order.setAmout(130);
+        //插入fact对象数据
+        insert(order);
+        System.out.println("成功匹配到规则一：100元以下 不加分");
+end
+
+//规则二：100元 - 500元 加100分
+rule "order_rule_2"
+    when
+        $order:Order(amout >= 100 && amout < 500)
+    then
+         $order.setScore(100);
+         System.out.println("成功匹配到规则二：100元 - 500元 加100分");
+end

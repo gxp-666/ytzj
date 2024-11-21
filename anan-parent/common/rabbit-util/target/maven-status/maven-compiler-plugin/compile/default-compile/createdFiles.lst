@@ -1,0 +1,3 @@
+com\gec\anan\common\service\RabbitService.class
+com\gec\anan\common\constant\MqConst.class
+com\gec\anan\common\entity\AnanCorrelationData.class

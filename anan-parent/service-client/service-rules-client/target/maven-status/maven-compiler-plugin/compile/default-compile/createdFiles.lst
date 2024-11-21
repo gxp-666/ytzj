@@ -1,0 +1,3 @@
+com\gec\anan\rules\client\ProfitsharingRuleFeignClient.class
+com\gec\anan\rules\client\FeeRuleFeignClient.class
+com\gec\anan\rules\client\RewardRuleFeignClient.class
